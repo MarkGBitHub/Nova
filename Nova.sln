@@ -5,6 +5,8 @@ VisualStudioVersion = 17.4.33110.190
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nova.Api", "Nova.Api\Nova.Api.csproj", "{951E6CC0-FF6E-473F-8995-FB2F4CC8D67C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nova.Api.Tests", "Nova.Api.Tests\Nova.Api.Tests.csproj", "{B20AEF57-9E24-4589-B823-89009D2015E0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{951E6CC0-FF6E-473F-8995-FB2F4CC8D67C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{951E6CC0-FF6E-473F-8995-FB2F4CC8D67C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{951E6CC0-FF6E-473F-8995-FB2F4CC8D67C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B20AEF57-9E24-4589-B823-89009D2015E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B20AEF57-9E24-4589-B823-89009D2015E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B20AEF57-9E24-4589-B823-89009D2015E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B20AEF57-9E24-4589-B823-89009D2015E0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
