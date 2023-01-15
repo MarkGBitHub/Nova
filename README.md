@@ -9,17 +9,14 @@ How do you build and run your solution?
 1. Clone code
 2. open powershell
 3. cd to nova.api 
-4. dotnet run (a console window will launch with the details of the running app. please take note of the port, you need this to update the config file in react)
+4. dotnet run --urls="https://localhost:3400"
+> Note: React App base api is configured to port 3400.
 
 Nova-ui (React)
 1. Clone code
 2. cd to nova-ui
-3. find config.ts 
-4. update the baseApi to the specified Nova API uri 
-example: port 3400
-    baseApi: 'https://localhost:3400/api/Todo'
-5. npm i
-6. npm start
+3. npm i
+4. npm start
 
 What technical and functional assumptions did you make when implementing your solution?
 - Using EF InMemory, as such data is lost after restart.
