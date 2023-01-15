@@ -1,5 +1,5 @@
 # Nova
-Nova Todo List
+**Nova Todo List**
 
 How long did you spend on your solution? 
 > Around 6 hours total.
